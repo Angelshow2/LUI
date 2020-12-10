@@ -1,0 +1,15 @@
+{
+  "name": "llj-ui",
+  "version": "0.1.5",
+  "private": false,
+  "main": "lib/index.js",
+  "description": "llj-ui",
+  "keyword": "llj-ui",
+  "author":"lilj",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name kui --dest lib packages/index.js"
+  }
+}
